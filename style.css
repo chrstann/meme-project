@@ -1,33 +1,18 @@
-.libre-baskerville-regular {
-    font-family: "Libre Baskerville", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .libre-baskerville-bold {
-    font-family: "Libre Baskerville", system-ui;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .libre-baskerville-regular-italic {
-    font-family: "Libre Baskerville", system-ui;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  div {
+body {
     background-color: black;
-    color: white;
+}
+
+
+.poster {
+    font-family: "Libre Baskerville" serif;
+    text-transform: uppercase;
+    text-align: center;
     width: 50%;
     margin-left: 25%;
-  }
+    color: white;
+}
 
-  img {
+.meme {
     border: 5px solid white;
     width: 100%;
-  }
-
-  h1 {
-    text-transform: uppercase;
-  }
+}
